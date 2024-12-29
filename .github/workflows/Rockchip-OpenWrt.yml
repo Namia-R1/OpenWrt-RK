@@ -1,8 +1,5 @@
 name: Rockchip OpenWrt
 
-permissions: write-all
-#开启写权限，防止无法上传到release
-
 on:
   workflow_dispatch:
   schedule:
@@ -25,7 +22,7 @@ env:
 
 jobs:
   Build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Check Server Performance
