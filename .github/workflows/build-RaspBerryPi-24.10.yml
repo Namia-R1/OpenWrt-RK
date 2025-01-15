@@ -1,5 +1,7 @@
 name: build-RaspBerryPi-24.10-ImmortalWrt
 
+permissions: write-all
+
 on:
   workflow_dispatch:
     inputs:
