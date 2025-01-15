@@ -1,5 +1,7 @@
 name: build-gl-inet-23.05.4 ImmortalWrt
 
+permissions: write-all
+
 on:
   workflow_dispatch:
     inputs:
