@@ -1,5 +1,7 @@
 name: build-x86-64-immortalwrt-23.05.4
 
+permissions: write-all
+
 on:
   workflow_dispatch:
     inputs:
