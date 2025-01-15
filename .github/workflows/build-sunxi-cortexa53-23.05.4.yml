@@ -1,5 +1,7 @@
 name: build-sunxi-cortexa53-23.05.4-ImmpotalWrt
 
+permissions: write-all
+
 on:
   workflow_dispatch:
     inputs:
