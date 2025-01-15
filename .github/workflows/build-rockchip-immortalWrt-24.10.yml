@@ -1,5 +1,7 @@
 name: build-rockchip-immortalWrt-24.10
 
+permissions: write-all
+
 on:
   workflow_dispatch:
     inputs:
@@ -52,7 +54,7 @@ on:
           - xunlong_orangepi-r1-plus
           - xunlong_orangepi-r1-plus-lts
         required: true
-        default: 'friendlyarm_nanopi-r3s'
+        default: 'ariaboard_photonicat'
       rootfs_partsize:
         description: '设置软件包大小 单位(MB)'
         required: true
